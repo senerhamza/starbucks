@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+</head>
+<body>
+    <div class="container">
+        <img src="image-removebg-preview (3).png" alt="Starbucks Image" width="150" height="auto" />
+        <ul class="navbar">
+            <li><a href="https://www.starbucks.com/" target="_blank">Home</a></li>
+            <li><a href="https://stories.starbucks.com/stories/news/" target="_blank">News</a></li>
+            <li><a href="https://customerservice.starbucks.com/" target="_blank">Contact</a></li>
+            <li><a href="https://www.starbucks.com/about-us/"target="_blank">About</a></li>
+        </ul>
+    </div>
+
+    <hr class="Line" style="margin-top: 20px; margin-bottom: 20px;" />
+    <h1 class="begining" style="text-align: center; margin-top: 20px; margin-bottom: 20px;">It's not just coffee. It's Starbucks!</h1>
+    <hr class="Line2">
+    <div class="Historic_Division">
+        <dl>
+            <dt span style="color:rgb(0, 153, 51)"class="History">History</dt>
+            <dd class="First_Starbucks" style="margin-top: 20px; margin-bottom: 20px;">- Our story begins in 1971 along the cobblestone streets of Seattle,
+                s historic Pike Place Market. It was here where Starbucks opened its first store, offering fresh-roasted coffee beans, tea and spices from around the world for our customers to take home. Our name was inspired by the classic tale, "Moby-Rick," evoking the seafaring tradition of the early coffee traders.</dd>
+        </dl>
+        <div style="text-align: center;">
+            <img src="First Store.jpg" style="width: 420px; height: 250px; margin-top: 20px; margin-bottom: 20px;">
+        </div>
+    </div>
+
+    <p class="Begining_text" style="margin-top: 20px; margin-bottom: 20px;">Starbucks: Iconic coffeehouse founded in 1971, offering ethically sourced coffee, a global presence, and a welcoming atmosphere for coffee enthusiasts</p>
+
+    <img src="5fabbdee0442b9d711ea2e8007f2262a.jpg" width="650" style="margin-top: 20px; margin-bottom: 20px;">
+
+    <a href="https://www.starbucks.com/" style="margin-top: 20px; margin-bottom: 20px;">For more info click here</a>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+<style>
+  .Line2{
+    height: 3px;
+        border: none;
+        background-color:rgb(0, 153, 51);
+  }
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar li {
+        display: inline;
+        margin-right: 20px; /* Add margin-right to control spacing between the links */
+    }
+    .navbar {
+        margin-left: 20px;
+        list-style-type: none;
+        padding: 0;
+        font-size: 20px;
+    }
+
+    li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    li a {
+        text-decoration: none;
+        background-color: #dddddd;
+        padding: 8px;
+    }
+
+    .History {
+        font-size: 25px;
+        color: white;
+        outline: #4CAF50 solid 5px;
+        margin: auto;  
+        padding: 20px;
+        width: 75px;
+        height: auto;
+
+    }
+
+    .First_Starbucks {
+        font-size: 20px;
+        font-weight: bold;
+        outline: #4CAF50 solid 5px;
+        margin: auto;  
+        padding: 20px;
+        width: 1000px;
+        height: auto;
+    }
+
+    hr.Line {
+        height: 3px;
+        border: none;
+        background-color:rgb(0, 153, 51);
+    }
+
+    .begining {
+        color: rgb(0, 153, 51);
+        text-align: center;
+        font-size: 48px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin: 0;
+    }
+
+    body {
+        background-color: whitesmoke;
+    }
+</style>
+</html>

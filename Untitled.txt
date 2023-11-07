@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prvi cas</title>
+</head>
+<body>
+    <h1>Ovo je h1</h1>
+    <h2>Ovo je h2</h2>
+    <h3>Ovo je h3</h3>
+    <h4>Ovo je h4</h4>
+    <h5>Ovo je h5</h5>
+    <h6>Ovo je h6</h6> 
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         Exercitationem dolorem explicabo rem numquam distinctio, ut incidunt quae
+          libero enim placeat quibusdam est accusantium facere! Animi dolorum deleniti 
+          accusantium eaque error!</p>
+
+    <a href="https://www.youtube.com/">Youtube</a>
+
+    <img src="преузимање.png" width="550" height="550"/>
+
+    
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li></li>
+  </ol>
+  
+  <dl>
+    <dt>Belgarde</dt>
+    <dd>- Trenutna temperatura Beograd, pritisak, vlažnost vazduha, brzina vetra. Prikaz temperatura u Beogradu, vreme danas i sutra. Takođe 24 – satna prognoza vremena. Trenutno vreme u Beogradu danas po satima . Na ovoj stranici uvek se mogu pogledati vremenski podaci.
+       Kolika je trenutna temp Bgd, najviša i najniža dnevna temperatura u Beogradu</dd>
+    <dt>Novi Sad</dt>
+    <dd>- Vremenska prognoza Novi Sad. VojvodinaMeteo desetodnevna vremenska prognoza za Novi Sad. Vremenska prognoza za Vojvodinu.
+       Vremenska prognoza za Srbiju i vremenska prognoza za Beograd </dd>
+    <dt>Nis</dt>
+    <dd>2 Km/h. 82%. 998,0mb. 14°. -. 10:00. 15°. 2 Km/h. 88%. 999,0mb. 15°.
+       -. 13:00. 14°. 7 Km/h. 79%. 997,8mb. 14°. 3,7mm. 16:00. 14°. 9 Km/h.
+    </dd>
+  </dl>
+
+
+    <b> bold </b> 
+<table>
+        <tr>
+            <th>Beograd</th>
+            <th>Novi Sad</th>
+            <th>Nis</th>
+        </tr>
+    
+        <tr>
+            <td>18 degrees</td>
+            <td> 23 degrees</td>
+            <td> 17 degrees</td>
+        </tr>
+    
+        <tr> 
+            <td>Temp rising</td>
+            <td>Temp falling</td>
+            <td>Temp rising</td>
+        </tr>
+</table>
+<form>
+  <input type="text" placeholder="Enter youre name...">
+  <Button></Button>
+</form>
+
+</body>
+</html>
